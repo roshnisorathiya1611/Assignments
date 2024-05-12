@@ -5,6 +5,10 @@ body
         background-repeat: no-repeat;
     }
 
+    .container 
+    {
+        display: flex;
+    }
     .nav{
         background-image: url('../images/nav-pic.png');
         background-size: cover;
@@ -57,3 +61,75 @@ body
       width: 120px;
     }
     
+    .main{
+        background-image: url('../../images/background-pic.png');
+        background-size: cover;
+        flex: 1;
+        padding: 40px;   
+    }
+
+    .main .heading-main{
+        color: #63819B;
+        font: bold 34px Segoe UI;
+        letter-spacing: 2px;    
+    }
+
+    .bar-main{
+        height: 25px;
+        width:240px;
+        border-radius: 20px;
+        background-color:#def8f5;
+        margin-top: -30px;
+        margin-bottom: 50px;
+    }
+    .card{
+        width: 90%;
+        padding: 10px;
+        background-color: #def8f5;
+        box-shadow: 0 4px 8px 0 rgba(50, 46, 46, 0.2);
+        border-radius: 12px;
+        margin-bottom: 28px;
+    }
+
+    .card .row{
+        display: flex;
+        justify-content: space-between;
+    }
+    .card .row p{
+        color: #8DA2B7;
+        font-size: 14px;
+    }
+    .card .col{
+        color: #B8CED6;
+    }
+
+    .card .row img
+    {
+        height: 110px;
+        width: 110px;
+    }
+    .card .col  p{
+        font-size: 19px;
+        margin-bottom: 10px;
+        margin-top: 25px;
+    }
+    .card .card-title{
+        font: bold 20px;
+        color: #95acc9;
+        letter-spacing: 1px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .card .col .card-title p1{
+        font-size: 12px;
+    }
+    .bar{
+        height: 22px;
+        width:240px;
+        background-color:#93e0dc;
+        border-radius: 20px;
+    }
+    .lasttext{
+        font: bold 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-top: 20px;
+    }
