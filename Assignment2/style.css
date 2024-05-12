@@ -1,0 +1,59 @@
+body
+    {
+        background-image: url('../images/background-img.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .nav{
+        background-image: url('../images/nav-pic.png');
+        background-size: cover;
+        margin-top: 0px;
+        padding-top: 40px;
+        width: 300px;
+        height: 92vh;
+        border: 2px solid transparent;
+        border-radius: 20px;
+        text-align: center;
+    }
+
+    .nav-main{
+        margin-top: 30px;
+     }
+
+     .nav-row{ 
+        display: flex;
+        margin-left: 60px;
+    }
+    .nav-row p{
+        color: #607a9b;
+        font-size: 17px;
+    }
+
+    .nav-row img{
+        height: 60px;
+        width: 60px;
+    }
+
+    .navcard{
+        background-color:rgb(149, 244, 231);
+        display: flex;
+        margin: 10px;
+        padding: 20px;
+        border-radius: 25px;
+        height: 90px;
+    }
+    .navcard p{
+        width: 40%;
+        font-weight: bold;
+        margin-top:10px;
+        color: #FFFF;
+        letter-spacing: 1px;
+        font-size: 20px;  
+    }
+    .navcard img{
+      margin-top: -21px;  
+      height: 110px;
+      width: 120px;
+    }
+    
