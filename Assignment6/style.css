@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&display=swap');
+body 
+        {
+            background-image: url(Background.jpg);
+            padding-top: 50px;
+        }
+.profile-card 
+        {
+            margin-top: 20px;
+        }
+.profileimg
+{
+    border: 8px solid #4078c0;
+}
+span
+{
+    margin-left: 30px;
+}
